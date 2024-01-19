@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #taskInput {
+    padding: 8px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 60%;
+  }
+  
+  #addTaskBtn,
+  button.deleteBtn,
+  button.editBtn {
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    width: 35%;
+    color: #fff; /* Adăugat pentru a asigura vizibilitatea textului */
+  }
+  
+  #addTaskBtn {
+    background-color: #4caf50;
+  }
+  
+  button.deleteBtn {
+    background-color: #ff5555;
+  }
+  
+  button.editBtn {
+    background-color: #2196f3;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Adăugare media query pentru a face ajustări la dimensiuni pe ecrane mici */
+  @media (max-width: 600px) {
+    #taskInput,
+    #addTaskBtn,
+    button.deleteBtn,
+    button.editBtn {
+      width: 80%;
+    }
+  }
+  

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .error {
+      color: rgb(255, 0, 64);
+    }
+  </style>
+</head>
+<body>
+
+<form id="registrationForm" onsubmit="return validateForm()">
+  <label for="email">E-mail:</label>
+  <input type="email" id="email" name="email" required>
+  <span id="emailError" class="error"></span>
+
+  <br>
+
+  <label for="password">Parolă:</label>
+  <input type="password" id="password" name="password" required>
+  <span id="passwordError" class="error"></span>
+
+  <br>
+
+  <label for="confirmPassword">Confirmare parolă:</label>
+  <input type="password" id="confirmPassword" name="confirmPassword" required>
+  <span id="confirmPasswordError" class="error"></span>
+
+  <br>
+
+  <input type="submit" value="Înregistrează-te">
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
