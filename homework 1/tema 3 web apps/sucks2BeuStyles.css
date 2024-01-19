@@ -1,0 +1,168 @@
+body {
+
+    background-image: url("New_map.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(2px);
+}
+
+.Desktop2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.cantSignIn {
+    left: 356px;
+    top: 201px;
+    position: relative;
+    color: rgb(255, 254, 254);
+    font-size: 96px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.sucks2bu {
+    left: 463px;
+    top: 351px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.Container {
+    width: 307px;
+    height: 351px;
+    position: absolute;
+    background: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.passwordProblems {
+    width: 307px;
+    height: 351px;
+    left: 559px;
+    top: 501px;
+    position: absolute;
+}
+
+
+.lostYourPassword {
+    left: 5px;
+    top: 190px;
+    position: relative;
+    color: #979797;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.lmaoSendEmail {
+    width: 203px;
+    height: 21px;
+    top: 20px;
+    left: 15px;
+    position: relative;
+    text-align: center;
+    color: #B8B8B8;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.emailProblems {
+    width: 307px;
+    height: 351px;
+    left: 949px;
+    top: 501px;
+    position: absolute;
+}
+
+.lostYourEmail {
+    left: 5px;
+    top: 185px;
+    position: relative;
+    color: #979797;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.tooYoung {
+    width: 221px;
+    left: 0px;
+    top: 20px;
+    position: relative;
+    text-align: center;
+    color: #B8B8B8;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.userProblems {
+    width: 307px;
+    height: 351px;
+    left: 170px;
+    top: 501px;
+    position: absolute;
+}
+
+.forgotUsername {
+    left: 5px;
+    position: relative;
+    top: 185px;
+    color: #979797;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.sendEmail {
+    width: 221px;
+    top: 20px;
+    position: relative;
+    text-align: center;
+    color: #B8B8B8;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.svgIconUsername {
+    width: 145px;
+    height: 145px;
+    margin: 250px;
+    padding-top: 155px;
+    position: relative;
+    padding-left: opx;
+}
+
+.svgIconPassword {
+    width: 145px;
+    height: 145px;
+    padding-bottom: 245px;
+    position: relative;
+    margin-left:-7px;
+}
+
+.svgIconEmail {
+    width: 145px;
+    height: 145px;
+    padding-bottom: 245px;
+    position: relative;
+    padding-left: 240px;
+}
